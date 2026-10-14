@@ -61,13 +61,6 @@ JOIN Dish ON Category.Category_ID = Dish.Category_ID
 GROUP BY Category.Category_name;
 ```
 
-## Running it
-
-```bash
-mysql -u root -p < sql/01_schema_and_data.sql   # creates the Kababa1 database, tables and sample data
-mysql -u root -p < sql/02_queries.sql           # runs all queries and creates the views
-```
-
 ## Tech stack
 
 MySQL · SQL (DDL, DML, joins, subqueries, views) · ER modeling
