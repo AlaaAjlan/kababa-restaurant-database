@@ -23,6 +23,7 @@ select*from Dish_Details;
 describe dish_details;
 
 
+-- ====HAJER====
 SELECT DName, Price FROM Dish WHERE Price > 10;
 SELECT DName, Calories FROM Dish WHERE Calories < 100;
 
@@ -58,6 +59,7 @@ select * from Order_Report;
 
 
 
+-- ====DANA====
 -- selects customer names and phone numbers where the phone number starts with '055’
 SELECT Customer_Name, Customer_Phone
 FROM Customer
@@ -114,6 +116,7 @@ GROUP BY Category.Category_name;
 select * from Category_Stats;
 
 
+-- ====ALAA==== 
 -- Shows dishes priced above 20 SAR
 SELECT DName, Price
 FROM Dish
